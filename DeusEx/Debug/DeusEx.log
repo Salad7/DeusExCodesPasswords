@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(49): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(54): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(167): error C2065: 'IDC_LISTBOX_EXAMPLE': undeclared identifier
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(190): error C2065: 'IDC_LISTBOX_EXAMPLE': undeclared identifier
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(190): error C2131: expression did not evaluate to a constant
+  c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(190): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+  c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(190): note: see usage of 'IDC_LISTBOX_EXAMPLE'
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(196): error C2065: 'IDC_LISTBOX_EXAMPLE': undeclared identifier
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(206): error C3861: 'StringCbPrintf': identifier not found
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(211): error C2065: 'IDC_STATISTICS': undeclared identifier
+c:\users\itsadmin\documents\visual studio 2015\projects\deusex\deusex\main.cpp(190): error C2051: case expression not constant
