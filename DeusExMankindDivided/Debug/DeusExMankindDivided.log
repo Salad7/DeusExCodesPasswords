@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\itsadmin\documents\visual studio 2015\projects\deusexmankinddivided\deusexmankinddivided\main.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\itsadmin\documents\visual studio 2015\projects\deusexmankinddivided\deusexmankinddivided\main.cpp(26): warning C4101: 'pk': unreferenced local variable
+  DeusExMankindDivided.vcxproj -> c:\users\itsadmin\documents\visual studio 2015\Projects\DeusExMankindDivided\Debug\DeusExMankindDivided.exe
+  DeusExMankindDivided.vcxproj -> c:\users\itsadmin\documents\visual studio 2015\Projects\DeusExMankindDivided\Debug\DeusExMankindDivided.pdb (Full PDB)
