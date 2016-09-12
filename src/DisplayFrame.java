@@ -36,6 +36,8 @@ public class DisplayFrame extends GridPane{
 		for(String d : treeMap.keySet())
 		{
 			t = new Label(d);
+			t.setMaxWidth(200);
+			t.setWrapText(true);
 			this.add(t, 0, i + j);
 			t = new Label(treeMap.get(d));
 			this.add(t, 2, i + j);

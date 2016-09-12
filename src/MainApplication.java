@@ -10,7 +10,7 @@ public class MainApplication extends Application{
 	{
 		Database.init();
 		
-		Database.loadFile("./res/test");
+		Database.loadFile("./res/deusex.txt");
 		dframe = new DisplayFrame(Database.getDatabase());
 		
 		Application.launch(args);
