@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeMap;
 
 /**
  * 
@@ -12,7 +13,7 @@ import java.util.Set;
 public class Database{
 	private static final long serialVersionUID = 1L;
 	private static Database database;
-	private HashMap<String, HashMap<String, String>> hash = new HashMap<String, HashMap<String, String>>();
+	public TreeMap<String, TreeMap<String, String>> hash = new TreeMap<String, TreeMap<String, String>>();
 	
 	public static String printAll()
 	{
@@ -110,7 +111,7 @@ public class Database{
 		
 	public static void add(String loc, String desc, String pass)
 	{
-		if(!database.hash.containsKey(loc)) database.hash.put(loc, new HashMap<String, String>());
+		if(!database.hash.containsKey(loc)) database.hash.put(loc, new TreeMap<String, String>());
 		database.hash.get(loc).put(desc, pass);
 	}
 	
@@ -148,6 +149,8 @@ public class Database{
 			System.exit(0);
 		}
 	}
+	
+	public static Database getDatabase(){return database;}
 	
 	private static Database load()
 	{
